@@ -13,9 +13,10 @@ function init() {
   //  console.log(index);     //键摁对的对应项
     // console.log(keycodes);
   // console.log(code[index]);
-  // console.log(e.detail)
-  // console.log(e.which)
-  // console.log(e.location)
+  console.log(e.keyCode);
+  console.log(e.detail)
+  console.log(e.which)
+  console.log(e.location)
 
     if (keycodes == code[index]){     //顺序对应,index加1, 否则 重置index和keycodes
         // alert('you did it!');
