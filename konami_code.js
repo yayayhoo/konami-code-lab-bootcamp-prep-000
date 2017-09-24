@@ -11,7 +11,7 @@ function init() {
     keycodes = parseInt(e.detail || e.which || e.location);
       var c = code.join('').slice(0,2*index + 2); //对应当前项的字符串序列
   //  console.log(index);     //键摁对的对应项
-    console.log(keycodes);  
+    console.log(keycodes);
   console.log(code[index]);
   // console.log(e.detail)
   // console.log(e.which)
